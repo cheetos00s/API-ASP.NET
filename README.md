@@ -4,8 +4,8 @@ Este es un proyecto de ejemplo desarrollado con ASP.NET Web API. A continuación
 # Requisitos
 Antes de empezar, asegúrate de tener instalados los siguientes componentes:
 
-Visual Studio 2019 o superior
-.NET SDK 5.0 o superior
+Visual Studio 2019 o superior,
+.NET SDK 8.0,
 MySql
 
 # Pasos para clonar y ejecutar el proyecto
@@ -23,8 +23,8 @@ Selecciona File > Open > Project/Solution.
 Navega a la carpeta donde clonaste el repositorio y selecciona el archivo de solución (.sln).
 
 3. Restaurar los paquetes NuGet
-Una vez abierto el proyecto en Visual Studio, ve al Solution Explorer.
-Haz clic derecho en la solución y selecciona Restore NuGet Packages.
+Una vez abierto el proyecto en Visual Studio, ve a herramientas, administrar paquetes NuGet y descarga: 
+Microsoft.EntityFrameworkCore, Microsoft.EntityFrameworkCore.Tools, MySql.EntityFrameworkCore
 
 4. Configurar la cadena de conexión a la base de datos
 Abre el archivo appsettings.json.

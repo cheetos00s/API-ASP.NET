@@ -1,4 +1,14 @@
-﻿using System;
+﻿//------------------------------------------------------------------------------
+// <written-by>
+//     This code was written by David Cardenas.
+//     © 2024 David Cardenas. All rights reserved.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </written-by>
+//------------------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
